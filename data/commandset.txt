@@ -1,0 +1,7 @@
+mov a 1
+mov b 2
+inc a
+dec b
+jnz b -1
+inc a
+
