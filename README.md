@@ -1,1 +1,1 @@
-# silly-assembler-interpreter
+# A silly assembler interpreter!
