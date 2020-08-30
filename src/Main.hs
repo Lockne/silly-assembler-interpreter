@@ -15,7 +15,7 @@ simpleAssembler commandset =
 
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  putStrLn "Please enter filepath: "
   filepath <- getLine
   commandset <- lines <$> readFile filepath
   print $ simpleAssembler commandset
